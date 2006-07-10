@@ -9,6 +9,7 @@ Summary(pl):	%{_pearname} - Klasa sprawdzaj±ca poprawno¶æ dla Nowej Zelandii
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
 Release:	1
+Epoch:		0
 License:	New BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -32,11 +33,12 @@ Package containes locale validation for NZ such as:
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-Pakiet do sprawdzanie poprawno¶ci danych dla Argentyny takich jak:
+Pakiet do sprawdzanie poprawno¶ci danych dla Nowej Zelandii takich
+jak:
  - numery IRD
  - kody regionów
- - numer telefonu
- - kod pocztowy
+ - numery telefonu
+ - kody pocztowe
  - numery konta bankowego
 
 Ta klasa ma w PEAR status: %{_status}.
@@ -73,4 +75,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files tests
 %defattr(644,root,root,755)
+%dir %{php_pear_dir}/tests/Validate_NZ
+%dir %{php_pear_dir}/tests/Validate_NZ/tests
 %{php_pear_dir}/tests/Validate_NZ/tests/Validate_NZ.phpt
