@@ -7,13 +7,13 @@
 Summary:	%{_pearname} - Validation class for New Zeland
 Summary(pl):	%{_pearname} - Klasa sprawdzaj±ca poprawno¶æ dla Nowej Zelandii
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
+Version:	0.1.2
 Release:	1
 Epoch:		0
 License:	New BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	73582349007aa8e1832495fd639b8bb5
+# Source0-md5:	09636973b4820a59695232f003063ad8
 URL:		http://pear.php.net/package/Validate_NZ/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -29,6 +29,7 @@ Package containes locale validation for NZ such as:
  - Telephone number
  - Postal code
  - Bank AC
+ - Vehical License Plates
 
 In PEAR status of this package is: %{_status}.
 
@@ -40,6 +41,7 @@ jak:
  - numery telefonu
  - kody pocztowe
  - numery konta bankowego
+ - tablice rejestracyjne pojazdów
 
 Ta klasa ma w PEAR status: %{_status}.
 
