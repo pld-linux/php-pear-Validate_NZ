@@ -5,7 +5,7 @@
 %define		_pearname	Validate_NZ
 
 Summary:	%{_pearname} - Validation class for New Zeland
-Summary(pl):	%{_pearname} - Klasa sprawdzaj±ca poprawno¶æ dla Nowej Zelandii
+Summary(pl.UTF-8):   %{_pearname} - Klasa sprawdzajÄ…ca poprawnoÅ›Ä‡ dla Nowej Zelandii
 Name:		php-pear-%{_pearname}
 Version:	0.1.2
 Release:	1
@@ -33,21 +33,21 @@ Package containes locale validation for NZ such as:
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Pakiet do sprawdzanie poprawno¶ci danych dla Nowej Zelandii takich
+%description -l pl.UTF-8
+Pakiet do sprawdzanie poprawnoÅ›ci danych dla Nowej Zelandii takich
 jak:
  - numery IRD
- - kody regionów
+ - kody regionÃ³w
  - numery telefonu
  - kody pocztowe
  - numery konta bankowego
- - tablice rejestracyjne pojazdów
+ - tablice rejestracyjne pojazdÃ³w
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -55,7 +55,7 @@ AutoReq:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
