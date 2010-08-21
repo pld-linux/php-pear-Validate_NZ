@@ -1,15 +1,11 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		Validate
-%define		_subclass	NZ
 %define		_status		alpha
 %define		_pearname	Validate_NZ
-
 Summary:	%{_pearname} - Validation class for New Zeland
 Summary(pl.UTF-8):	%{_pearname} - Klasa sprawdzająca poprawność dla Nowej Zelandii
 Name:		php-pear-%{_pearname}
 Version:	0.1.2
-Release:	2
-Epoch:		0
+Release:	3
 License:	New BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -49,7 +45,7 @@ Ta klasa ma w PEAR status: %{_status}.
 Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development
-Requires:	%{name} = %{epoch}:%{version}-%{release}
+Requires:	%{name} = %{version}-%{release}
 AutoReq:	no
 
 %description tests
