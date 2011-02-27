@@ -1,15 +1,15 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		alpha
 %define		_pearname	Validate_NZ
+%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - Validation class for New Zeland
 Summary(pl.UTF-8):	%{_pearname} - Klasa sprawdzająca poprawność dla Nowej Zelandii
 Name:		php-pear-%{_pearname}
-Version:	0.1.3
+Version:	0.1.5
 Release:	1
 License:	New BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	b706b28613ba7709ab9d49762e4e06b3
+# Source0-md5:	9bcbd16c9e6455cb7c27c24a967f848f
 URL:		http://pear.php.net/package/Validate_NZ/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -59,3 +59,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc install.log docs/%{_pearname}/LICENSE
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/Validate/NZ.php
+%{php_pear_dir}/data/Validate_NZ
