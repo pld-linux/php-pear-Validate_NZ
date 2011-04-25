@@ -4,12 +4,12 @@
 Summary:	%{_pearname} - Validation class for New Zeland
 Summary(pl.UTF-8):	%{_pearname} - Klasa sprawdzająca poprawność dla Nowej Zelandii
 Name:		php-pear-%{_pearname}
-Version:	0.1.5
-Release:	2
+Version:	0.1.6
+Release:	1
 License:	New BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	9bcbd16c9e6455cb7c27c24a967f848f
+# Source0-md5:	31aa03d7fa8745a8e58e978634245ed5
 URL:		http://pear.php.net/package/Validate_NZ/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
