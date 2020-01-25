@@ -1,6 +1,5 @@
 %define		_status		alpha
 %define		_pearname	Validate_NZ
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - Validation class for New Zeland
 Summary(pl.UTF-8):	%{_pearname} - Klasa sprawdzająca poprawność dla Nowej Zelandii
 Name:		php-pear-%{_pearname}
